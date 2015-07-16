@@ -1,9 +1,8 @@
 extends layout
 
 block content
-  |<h1> Take a look at your realtime energy usage across circuits</h1>
-  |Use our sortable table to find specific energy data
   |<div id="container"/>
   //- inject:js
-  script(src="/src/build.js")
+  script(src="/js/build.min.js")
+  script(src="/js/rendermarkdown.js")
   //- endinject
